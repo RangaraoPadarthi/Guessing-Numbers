@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="guessing.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <style>
+    body{
+        background-image: url(download.jpg);
+        background-size: cover;
+    }
+    .but{
+        position:absolute;
+        padding-left:30px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: green;
+        left:43%;
+        top:77%;
+        font-size: 30px;
+        color: white;
+    }
+    #ins{
+        padding-left:32%;
+        color:yellow;
+        font-size:large;
+    }
+    #but1{
+        text-align:center;
+        color: red;
+    }
+    </style>
+</head>
+<body>
+    <a href="guessing.html">
+            <button class="but" onclick="page()">START</button>
+    </a>
+    <div id="but1">
+        <h1>Game Instructions</h1>
+    </div>
+    <div id="ins">
+        <h3>1.Press the start button to enter in to the game.</h3>
+        <h3>2.Enter names of player1 and player2.</h3>
+        <h3>3.Enter numbers to opponent player has to guess it.</h3>
+        <h3>4.After entering details click submit details button</h3>
+        <h3>5.Enter 0 to 9 numbers in each box.</h3>
+        <h3>6.The box can take only single digit.</h3>
+        <h3>7.Now check how many numbers written by you as correct by hitting submit button.</h3>
+        <h3>8.On each submission no of attempts will be increased.</h3>
+        <h3>9.If you want to replay game click retake button to  restart the game.</h3>
+    </div>
+    
+</body>
+</html>

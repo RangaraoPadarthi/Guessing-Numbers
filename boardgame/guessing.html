@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="guessing.css">
+    <script src="guessing.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <title>Number Guessing game</title>
+</head>
+<body>
+    <div id="frame001">
+        <div id="font001">
+            <div id="align001">
+                <h1>Numbers Guessing Game</h1>
+                <hr/>
+                <input type="text" id="name1" placeholder="Player1 Name">
+                <input type="password" id="ply1" size=5 maxlength="4"></br></br>
+                <input type="text" id="name2" placeholder="Player2 Name">
+                <input type="password" id="ply2" size=5 maxlength="4"></br></br>
+                <button class="bb" onclick="page()">submit details</button>
+                <p id="nn"></p>
+                <h2>attempts:<text id="attempts001">0</text></h2>
+                <input type="text" id="number001"size="1" maxlength="1">
+                <input type="text" id="number002"size="1" maxlength="1">
+                <input type="text" id="number003"size="1" maxlength="1">
+                <input type="text" id="number004"size="1" maxlength="1"><br/><br/>
+                <br/><br/>
+                <div id="retake001">
+                    <button class="blue001" onclick="submit001()">Submit</button>
+                </div>
+                <br/><br/>
+                <p id="answer001"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
